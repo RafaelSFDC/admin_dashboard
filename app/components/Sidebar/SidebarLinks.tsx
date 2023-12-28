@@ -18,7 +18,10 @@ const SidebarLinks = () => {
               } ${path === item.path ? "border-sky-400" : "border-transparent"}
               `}
             >
-              <Icon className="text-2xl" />
+              <Icon
+                className="text-2
+              xl"
+              />
               {item.name}
             </Link>
           </li>

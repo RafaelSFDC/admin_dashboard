@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-auto h-full">
+        <div className="flex flex-auto h-full  bg-zinc-200">
           <Sidebar />
           {children}
         </div>
